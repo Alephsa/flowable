@@ -6,7 +6,7 @@ import grails.transaction.Rollback
 import org.flowable.engine.repository.Deployment
 import org.flowable.engine.repository.ProcessDefinition
 import org.flowable.engine.runtime.ProcessInstance
-import org.flowable.engine.task.Task
+import org.flowable.task.api.Task
 import org.grails.datastore.gorm.jdbc.DataSourceBuilder
 import org.grails.io.support.ClassPathResource
 import org.grails.io.support.Resource
