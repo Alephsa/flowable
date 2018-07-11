@@ -10,10 +10,8 @@ buildscript {
 }
 
 version "0.1"
-group "tools.blocks.flowable"
+group "com.alephsa.flowable"
 
-apply plugin:"eclipse"
-apply plugin:"idea"
 apply plugin:"org.grails.grails-plugin"
 apply plugin:"org.grails.grails-plugin-publish"
 apply plugin:"org.grails.grails-gsp"
@@ -44,7 +42,6 @@ dependencies {
     compile "org.flowable:flowable-spring:6.0.0"
     compile "org.flowable:flowable-form-spring:6.0.0"
     compile "org.flowable:flowable-form-spring-configurator:6.0.0"
-    //compile "org.flowable:flowable-spring-boot-starter-jpa:6.0.0.RC1"
     console "org.grails:grails-console"
     profile "org.grails.profiles:web-plugin"
     provided "org.grails:grails-plugin-services"
@@ -64,17 +61,17 @@ bootRun {
 bootRepackage.enabled = false
 
 grailsPublish {
-    user = 'user'
-    key = 'key'
-    githubSlug = 'fgroch/flowable'
+    user = 'alephsa'
+    key = '9c7662d7a72d6571b54626a931f070f33e4e46e0'
+    githubSlug = 'Alephsa/flowable'
     license {
         name = 'Apache-2.0'
     }
     title = "Flowable Grails 3 plugin"
     desc = "This plugin provides Grails integration with flowable BPM platform"
-    developers = [fgroch:"Filip Grochowski"]
+    developers = [Alephsa:"Alephsa SAS"]
     portalUser = ""
-    portalPassword = ""    
+    portalPassword = ""
 }
 
 

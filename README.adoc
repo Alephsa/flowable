@@ -1,8 +1,8 @@
-= flowable Grails plugin
+= Flowable Grails plugin
 
 == Introduction to the flowable Files plugin
 
-This plugin provides integration with flowable BPM platform 
+This plugin provides integration with flowable BPM platform.
 
 == History
 
